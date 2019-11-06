@@ -20,7 +20,6 @@ import pl.jacob_the_liar.test.web_api.SimpleObject;
 @RequestMapping("/api/test")
 public class JsonApi{
     
-    
     @GetMapping
     public ResponseEntity<?> getTestApi(){
         System.out.println("/api/test");
@@ -28,5 +27,4 @@ public class JsonApi{
         
         return s;
     }
-    
 }

@@ -24,7 +24,6 @@ public class WebForm{
     public ModelAndView getTestForm(){
         System.out.println("/web/test");
         ModelAndView view = new ModelAndView("index");
-        
         return view;
     }
     
@@ -32,9 +31,6 @@ public class WebForm{
     @GetMapping("/string")
     public ResponseEntity<String> getTestString(){
         System.out.println("/web/test/string");
-        
-        
         return ResponseEntity.ok("test");
     }
-    
 }
