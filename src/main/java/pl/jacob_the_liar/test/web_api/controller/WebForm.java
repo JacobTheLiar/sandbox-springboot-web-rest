@@ -27,7 +27,6 @@ public class WebForm{
         return view;
     }
     
-    
     @GetMapping("/string")
     public ResponseEntity<String> getTestString(){
         System.out.println("/web/test/string");

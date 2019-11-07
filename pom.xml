@@ -57,6 +57,11 @@
       <artifactId>javax.servlet.jsp.jstl-api</artifactId>
       <version>1.2.2</version>
     </dependency>
+    <dependency>
+      <groupId>org.apache.tomcat.embed</groupId>
+      <artifactId>tomcat-embed-jasper</artifactId>
+      <version>9.0.27</version>
+    </dependency>
   </dependencies>
 
   <build>
